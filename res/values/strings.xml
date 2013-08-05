@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="app_name">SimpleRSS</string>
+    <string name="exit_rssreader">Exit SimpleRSS ?</string>
+    <string name="feedaddtips">Please add feed</string>
+    <string name="empty_article_list">No article !</string>
+    <string name="nullstring"></string>
+    <string name="rss">RSS</string>
+    <string name="rsssettings_prefenrence">RSS Settings</string>
+    <string name="rsssettings_disclaimer">Disclaimer</string>
+    <string name="rsssettings_data_traffic_tips">The application activation could generate data traffic. For data traffic rates, please consult your local Operator.</string>
+    <string name="rsssettings_never_show">Never show this again</string>
+    <string name="addfeed_prefenrence">Add Feed</string>
+    <string name="customfeed">Custom feed</string>
+    <string name="customfeed_enterrssaddress">Enter an RSS feed address:</string>
+    <string name="customfeed_tip">Tip: To copy a feed from the browser, long press on the feed link and select ”copy link URL”.</string>
+    <string name="customforaddfeedurl">Custom feed:RSS feed</string>
+    <string name="customforaddfeedurl_title">Contributing news sources:</string>
+    <string name="recent_added">Recent added</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="customsubscribe_des">Subscribing to:RSS feed</string>
+    <string name="feeds">Feeds</string>
+    <string name="title_input_frequency">Update frequency</string>
+    <string name="title_input_duration">Show Items for</string>
+    <string name="ok">Ok</string>
+    <string name="error">Error</string>
+    <string name="tryagain">Try again later.</string>
+    <string name="addbybundlestitle">Bundles</string>
+    <string name="addbyhistorytitle">Feed added history</string>
+    <string name="done">Done</string>
+    <string name="oneday">1 day</string>
+    <string name="twodays">2 days</string>
+    <string name="threedays">3 days</string>
+    <string name="oneweek">1 week</string>
+    <string name="onemonth">1 month</string>
+    <string name="never">Never</string>
+    <string name="onehour">1 hour</string>
+    <string name="threehours">3 hours</string>
+    <string name="sixhours">6 hours</string>
+    <string name="twelvehours">12 hours</string>
+    
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    
+    <string name="share">Share</string>
+    <string name="viewOriginal">View\nOriginal</string>
+    <string name="articlelist">News list</string>
+    <string name="empty_article_detail">No News</string>
+    <string name="listloadingtips">Article list Loading&#8230;</string>
+    <string name="articlerefreshtips">Refreshing&#8230;</string>
+    
+    
+    <string name="previous_page">Previous</string>
+    <string name="next_page">Next</string>
+    <string name="next_step">Next</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="subscribing">Subscribe feeds added now, please wait !</string>
+    <string name="feedaddednumtips">Oops! You can only display up to 50 feeds in the widget</string>
+    <string name="removefeedconfirm">Remove this feed?</string>
+    <string name="remove">Remove</string>
+    
+    <string name="widgetname">Widget name</string>  
+    <string name="showitmefor">Show items for</string>  
+    <string name="updatefrequency">Frequency</string> 
+    <string name="loading">Loading &#8230; </string>
+    <string name="article_loading">Article detail loading &#8230;</string> 
+  	<string name="title">Title</string> 
+  	<string name="date">Date</string> 
+  	<string name="url">Url</string>
+    
+    <string name="network_not_available">Data connection is not available, try again later.</string>
+    <string name="cannot_add_subscription">Can\'t add news subscription now. Data connection is not available, try again later.</string>
+
+    <string name="news_updated">New</string>
+    <string name="refresh_failed">Refresh failed</string>
+    <string name="invalid_url">Invalid Url</string>
+    <string name="connect_failure">Connect failed</string>
+    <string name="invalid_rss_url">Invalid RSS Address</string>
+    
+    <string name="feed_subscribed">Subscribed</string>
+    <string name="feed_all">All</string>
+    <string name="empty_subscribe">No Subscribed Feed</string>
+    <string name="clear">Clear</string>
+    <string name="feed_class">FeedClass</string>
+    <string name="custom">Custom</string>
+    <string name="manager_sub">Manager Subscribe</string>
+    <string name="opml">Opml Url</string>
+    <string name="manage_custom">Manage Custom</string>
+    <string name="find_rss">Find</string>
+    <string name="url_checking">Url Checking &#8230;</string>
+    <string name="exit">Exit</string>
+    
+    <string name="last_refresh">LastRefresh</string>
+    <string name="cur_refresh">CurrentRefresh</string>
+    <string name="pull_down_to_refresh">PulldownRefresh</string>
+    
+    <string name="poll_out_refresh">LetgoRefresh</string>
+    <string name="refreshing">Refresh &#8230;</string>
+    <string name="rss_settings">Settings</string>
+    <string name="inner_browser">Use inner browser</string>
+    <string name="go">Go</string>
+    <string name="picture_only_wifi">Only show pictures in Wifi</string>
+    <string name="show_pictures">Show Pictures Options</string>
+    <string name="show_pictures_yes">Show</string>
+    <string name="show_pictures_no">Do not show</string>
+    <string name="page_animation">Page Animation</string>
+    <string name="page_animation_on">Page animation is on</string>
+    <string name="page_animation_off">Page animation is off</string>
+    <string name="show_news_animation">Show News Animation</string>
+    <string name="news_animation_on">News animation is on</string>
+    <string name="news_animation_off">News animation is off</string>
+    
+    <string name="widget_layout">Widget layout</string>
+    <string name="widget_layout_list">List layout</string>
+    <string name="widget_layout_grid">Grid layout</string>
+    <string name="select_widget_layout">Select Widget Layout</string>
+    <string-array name="widget_layout_entry">
+        <item>List layout</item>
+        <item>Grid layout</item>
+        <item>Stack layout</item>
+    </string-array>
+    <string-array name="widget_layout_value">
+        <item>list</item>
+        <item>grid</item>
+        <item>stack</item>
+    </string-array>
+    
+    <string name="create_widget">Create</string>
+    <string name="select_feeds">Select Feeds</string>
+    <string name="validaty_time">Validaty Time</string>
+    <string name="select_validaty_time">Select validaty time</string>
+    <string name="update_frequency">Update frequency</string>
+    <string name="select_update_frequency">Select update frequency</string>
+    <string name="next_update_time">Next update time : <xliff:g>%1$s</xliff:g></string>
+    
+    <string name="context_menu_open">Open</string>
+    <string name="context_menu_rename">Rename</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_property">Property</string>
+    <string name="context_menu_copyurl">Copy Url</string>
+    <string name="toast_url_copied">Url is copied to clipboard !</string>
+    
+    <string name="srcx1">srcx1</string>
+    <string name="srcy1">srcy1</string>
+    <string name="srcx2">srcx2</string>
+    <string name="srcy2">srcy2</string>
+    
+    <string name="dstx1">dstx1</string>
+    <string name="dsty1">dsty1</string>
+    <string name="dstx2">dstx2</string>
+    <string name="dsty2">dsty2</string>
+    <string name="transform">Transform</string>
+    
+    <string name="property_title_format">&lt;font color=red&gt;<xliff:g>%1$s</xliff:g>:&lt;/font&gt;&lt;br&gt;&lt;font color=white&gt;<xliff:g>%2$s</xliff:g>&lt;/font&gt;&lt;br&gt;</string>
+    <string name="property_url_format">&lt;font color=red&gt;<xliff:g>%1$s</xliff:g>:&lt;/font&gt;&lt;br&gt;&lt;font color=red&gt;<xliff:g>%2$s</xliff:g>&lt;/font&gt;&lt;br&gt;</string>
+    <string name="property_date_format">&lt;font color=red&gt;<xliff:g>%1$s</xliff:g>:&lt;/font&gt;&lt;br&gt;&lt;font color=white&gt;<xliff:g>%2$s</xliff:g>&lt;/font&gt;</string>
+    
+    <string name="select_all">Select All</string>
+    <string name="delete_old_on_refresh">Delete old news on refresh</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_grid_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="148dp"
+    android:focusable="false"
+    android:background="@drawable/widget_item_selector"
+    >
+    <ProgressBar
+        android:id="@+id/loading_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" 
+        />
+
+    <LinearLayout
+        android:id="@+id/grid_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/widget_item_selector"
+        android:visibility="invisible"
+        android:orientation="vertical"  
+        >
+        <TextView
+            android:id="@+id/grid_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/empty_article_list"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView 
+            android:id="@+id/grid_item_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/empty_article_list"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>
+
+</RelativeLayout>

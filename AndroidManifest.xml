@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.rss"
+    android:versionCode="1"
+    android:versionName="SMART_RSS_BUILD_20121226_V1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- wdmk68 add for IronprimeCT new version crash -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <application
+        android:icon="@drawable/rss"
+        android:label="@string/app_name" >
+        <service android:name=".service.RSSService" >
+            <intent-filter>
+                <action android:name="com.android.rss.intent.action.RSSSERVICE_MANUALREFRESH" />
+                <action android:name="com.android.rss.intent.action.RSSSERVICE_VALIDITY_CHECKING"/>
+                <action android:name="com.android.rss.intent.action.RSSAPP_SET_ALARM"/>
+                <action android:name="com.android.rss.intent.action.RSSSERVICE_STARTREFRESH"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name=".database.RSSProvider"
+            android:authorities="com.android.rss.database.RSSProvider"
+            android:multiprocess="false" />
+
+        <activity
+            android:name=".RSSNewsList"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- category android:name="android.intent.category.LAUNCHER" / -->
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.rss.items" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RSSFeedsList"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeedSource"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="false" >
+        </activity>
+        <activity
+            android:name=".RSSWebView"
+            android:configChanges="orientation|screenSize|keyboardHidden" 
+            android:theme="@style/rss_webview_style"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="text/rss"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".reciever.RSSBroadcastReciever" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".RSSSearchActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".settings.RSSSettings"
+            android:label="@string/rss_settings" >
+            <intent-filter>
+                <action android:name="com.android.rss.intent.action.RSSAPP_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Search Suggestions Provider -->
+        <provider
+            android:name=".RSSSuggestionsProvider"
+            android:authorities="com.android.rss.RSSSuggestionsProvider" >
+        </provider>
+
+        <receiver android:name=".widget.RSSWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.android.rss.intent.action.RSSWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/rsswidget_info" />
+        </receiver>
+        <service android:name=".widget.RSSWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <activity
+            android:name=".widget.RSSWidgetNewsActivity"
+            android:launchMode="singleTask"
+            android:label="@string/nullstring"
+            android:icon="@null"
+            android:logo="@null"
+            >
+            <intent-filter>
+                <action android:name="com.android.rss.intent.action.OPEN_ARTICLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.RSSWidgetConfigActivity"
+            >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.SelectFeedForWidgetActivity"
+            android:configChanges="orientation|screenLayout"
+            android:label="@string/select_feeds"
+            />
+    </application>
+
+</manifest>

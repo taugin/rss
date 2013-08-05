@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cy="http://schemas.android.com/apk/res/com.motorola.mmsp.rss"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/button_close"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_menu_close_clear_cancel"
+        android:background="@drawable/button_background"
+        android:onClick="onClick"
+        />
+    <View
+        android:id="@+id/horizontal_divide"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/button_close"
+        android:background="@color/dark_gray" />
+
+    <RelativeLayout
+        android:id="@+id/fullscreen_detail_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/horizontal_divide"
+        android:background="@android:color/black"
+        >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_article_title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" 
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+        	android:layout_marginRight="4dp"
+        	>
+            <TextView
+                android:id="@+id/feed_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:gravity="left"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/news_pubdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:layout_weight="3.0"
+                android:gravity="right"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <FrameLayout 
+            android:id="@+id/fullscreen_textview_zone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/fullscreen_article_title_layout"
+            android:layout_centerHorizontal="true"
+            >
+            <com.android.rss.view.NewsView
+                android:id="@+id/webview_news"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+            />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

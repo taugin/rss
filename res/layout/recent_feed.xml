@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/recent_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:drawable/list_selector_background"
+            android:src="@drawable/delete" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/recent_feed_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/framelayout"
+        android:background="#22222222" />
+
+</RelativeLayout>

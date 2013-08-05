@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/feed_title_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="@string/title" />
+
+        <EditText
+            android:id="@+id/feed_title"
+            android:layout_width="fill_parent"
+            android:textColor="@color/rss_label_color"            
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:paddingLeft="12dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:hint="@string/title"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:id="@+id/feed_url_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="@string/url" />
+
+        <AutoCompleteTextView
+            android:id="@+id/setfeedurl"
+            android:layout_width="fill_parent"
+            android:textColor="@color/rss_label_color"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:paddingLeft="12dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:inputType="textUri"
+            android:hint="http://"
+            android:singleLine="true"
+            />
+        <!-- <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="@string/recent_added" />
+
+        <Spinner
+            android:id="@+id/recent_added_feed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:paddingLeft="12dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:prompt="@string/recent_added"            
+            /> -->
+    </LinearLayout>
+</RelativeLayout>

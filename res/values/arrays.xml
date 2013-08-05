@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bundle_rss">This array no need to translate
+        <item>新浪新闻</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=news</item>
+        <item>新浪财经</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=finance</item>
+        <item>新浪体育</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=sports</item>
+        <item>新浪军事</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=mil</item>
+        <item>新浪汽车</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=auto</item>
+        <item>新浪房产</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=house</item>
+        <item>新浪科技</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=tech</item>
+        <item>新浪博客</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=blog</item>
+        <item>新浪娱乐</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=ent</item>
+        <item>新浪女性</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=eladies</item>
+        <item>新浪星座</item>
+        <item>http://data.3g.sina.com.cn/oem/index.php?wm=b009&amp;ch=ast</item>
+        <item>瑞丽服饰</item>
+        <item>http://www.rayli.com.cn/rss/moto/fashion.xml</item>
+        <item>瑞丽美容</item>
+        <item>http://www.rayli.com.cn/rss/moto/beauty.xml</item>
+        <item>瑞丽格调</item>
+        <item>http://www.rayli.com.cn/rss/moto/style.xml</item>
+        <item>和讯房产头条</item>
+        <item>http://news.hexun.com/waprss/house_rss.xml</item>
+        <item>和讯头条</item>
+        <item>http://news.hexun.com/waprss/www_rss.xml</item>
+        <item>和讯理财投资</item>
+        <item>http://news.hexun.com/waprss/lcdd.xml</item>
+        <item>和讯股市直播</item>
+        <item>http://news.hexun.com/waprss/broadcast.xml</item>
+        <item>前程无忧职场气象</item>
+        <item>http://wap.51job.com/my/wap/wap_getnewslist.php?type=7101&amp;infotype=rss&amp;partner=monternet&amp;pagenum=10&amp;page=1</item>
+        <item>前程无忧劳动法苑</item>
+        <item>http://wap.51job.com/my/wap/wap_getnewslist.php?type=7102&amp;infotype=rss&amp;partner=monternet&amp;pagenum=10&amp;page=1</item>
+        <item>前程无忧无忧指数</item>
+        <item>http://wap.51job.com/my/wap/wap_getnewslist.php?type=7103&amp;infotype=rss&amp;partner=monternet&amp;pagenum=10&amp;page=1</item>
+        <item>前程无忧无忧专题</item>
+        <item>http://wap.51job.com/my/wap/wap_getnewslist.php?type=7104&amp;infotype=rss&amp;partner=monternet&amp;pagenum=10&amp;page=1</item>
+        <item>国内新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=143746653&amp;pgs=20&amp;page=1&amp;fr=jinli01</item>
+        <item>社会新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=143746651&amp;pgs=20&amp;page=1&amp;fr=jinli02</item>
+        <item>各地要闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=212846065&amp;pgs=20&amp;page=1&amp;fr=jinli03</item>
+        <item>事态万象</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=213377553&amp;pgs=20&amp;page=1&amp;fr=jinli04</item>
+        <item>国际新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=143746652&amp;pgs=20&amp;page=1&amp;fr=jinli05</item>
+        <item>军事新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=270452900&amp;pgs=20&amp;page=1&amp;fr=jinli06</item>
+        <item>国内财经</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=200108731&amp;pgs=20&amp;page=1&amp;fr=jinli08</item>
+        <item>国际财经</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=200108735&amp;pgs=20&amp;page=1&amp;fr=jinli09</item>
+        <item>全球股市</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=259055548&amp;pgs=20&amp;page=1&amp;fr=jinli10</item>
+        <item>新股快讯</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=257612859&amp;pgs=20&amp;page=1&amp;fr=jinli11</item>
+        <item>股市快报</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=257611804&amp;pgs=20&amp;page=1&amp;fr=jinli12</item>
+        <item>IT 国内</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=203663552&amp;pgs=20&amp;page=1&amp;fr=jinli13</item>
+        <item>IT 国际</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=203663588&amp;pgs=20&amp;page=1&amp;fr=jinli14</item>
+        <item>3G 频道 </item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=240164931&amp;pgs=20&amp;page=1&amp;fr=jinli15</item>
+        <item>数码要闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=277105678&amp;pgs=20&amp;page=1&amp;fr=jinli16</item>
+        <item>IT 界</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=203663511&amp;pgs=20&amp;page=1&amp;fr=jinli17</item>
+        <item>汽车资讯</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=200423397&amp;pgs=20&amp;page=1&amp;fr=jinli18</item>
+        <item>房产</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=259025347&amp;pgs=20&amp;page=1&amp;fr=jinli19</item>
+        <item>综合体育热点新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=267235042&amp;pgs=20&amp;page=1&amp;fr=jinli20</item>
+        <item>体育频道热点新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=249900276&amp;pgs=20&amp;page=1&amp;fr=jinli21</item>
+        <item>综合体育</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=204186936&amp;pgs=20&amp;page=1&amp;fr=jinli22</item>
+        <item>娱乐新闻汇总</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=246373040&amp;pgs=20&amp;page=1&amp;fr=jinli23</item>
+        <item>女人天下</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=220754821&amp;pgs=20&amp;page=1&amp;fr=jinli26</item>
+        <item>男人情感</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=257608144&amp;pgs=20&amp;page=1&amp;fr=jinli27</item>
+        <item>文化新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=244610607&amp;pgs=20&amp;page=1&amp;fr=jinli28</item>
+        <item>健康饮食</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=212462850&amp;pgs=20&amp;page=1&amp;fr=jinli30</item>
+        <item>女性健康</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=212457560&amp;pgs=20&amp;page=1&amp;fr=jinli31</item>
+        <item>教育动态</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=200312987&amp;pgs=20&amp;page=1&amp;fr=jinli33</item>
+        <item>教育频道每日精彩推荐</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=249971372&amp;pgs=20&amp;page=1&amp;fr=jinli34</item>
+        <item>教育新闻</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=200312983&amp;pgs=20&amp;page=1&amp;fr=jinli35</item>
+        <item>国内旅游</item>
+        <item>http://wap.sohu.com/interfaces/news/listrss.jsp?pid=224920722&amp;pgs=20&amp;page=1&amp;fr=jinli36</item>
+        <item>奶味网</item>
+        <item>http://www.naivix.com/rss.xml</item>
+        <item>国内焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=civilnews&amp;tn=rss&amp;sub=0</item>
+        <item>时政焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=shizheng&amp;tn=rss&amp;sub=0</item>
+        <item>港澳台焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=gangaotai&amp;tn=rss&amp;sub=0</item>
+        <item>国际焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=internews&amp;tn=rss&amp;sub=0</item>
+        <item>军事焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=mil&amp;tn=rss&amp;sub=0</item>
+        <item>环球视野焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=hqsy&amp;tn=rss&amp;sub=0</item>
+        <item>财经焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=finannews&amp;tn=rss&amp;sub=0</item>
+        <item>股票焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=stock&amp;tn=rss&amp;sub=0</item>
+        <item>理财焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=money&amp;tn=rss&amp;sub=0</item>
+        <item>互联网焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=internet&amp;tn=rss&amp;sub=0</item>
+        <item>公司动态焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=gsdt&amp;tn=rss&amp;sub=0</item>
+        <item>房产焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=housenews&amp;tn=rss&amp;sub=0</item>
+        <item>各地动态焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=gddt&amp;tn=rss&amp;sub=0</item>
+        <item>政策风向焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=zcfx&amp;tn=rss&amp;sub=0</item>
+        <item>汽车焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=autonews&amp;tn=rss&amp;sub=0</item>
+        <item>新车导购焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=autobuy&amp;tn=rss&amp;sub=0</item>
+        <item>体育焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=sportnews&amp;tn=rss&amp;sub=0</item>
+        <item>NBA焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=nba&amp;tn=rss&amp;sub=0</item>
+        <item>国际足球焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=worldsoccer&amp;tn=rss&amp;sub=0</item>
+        <item>国内足球焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=chinasoccer&amp;tn=rss&amp;sub=0</item>
+        <item>国内篮球焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=cba&amp;tn=rss&amp;sub=0</item>
+        <item>综合体育焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=othersports&amp;tn=rss&amp;sub=0</item>
+        <item>娱乐焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=enternews&amp;tn=rss&amp;sub=0</item>
+        <item>明星焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=star&amp;tn=rss&amp;sub=0</item>
+        <item>电视焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=tv&amp;tn=rss&amp;sub=0</item>
+        <item>音乐焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=music&amp;tn=rss&amp;sub=0</item>
+        <item>游戏焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=gamenews&amp;tn=rss&amp;sub=0</item>
+        <item>网络游戏焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=netgames&amp;tn=rss&amp;sub=0</item>
+        <item>电视游戏焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=tvgames&amp;tn=rss&amp;sub=0</item>
+        <item>教育焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=edunews&amp;tn=rss&amp;sub=0</item>
+        <item>考试焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=exams&amp;tn=rss&amp;sub=0</item>
+        <item>留学焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=abroad&amp;tn=rss&amp;sub=0</item>
+        <item>健康焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=healthnews&amp;tn=rss&amp;sub=0</item>
+        <item>保健养生焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=baojian&amp;tn=rss&amp;sub=0</item>
+        <item>寻医问药焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=yiyao&amp;tn=rss&amp;sub=0</item>
+        <item>科技焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=technnews&amp;tn=rss&amp;sub=0</item>
+        <item>数码焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=digi&amp;tn=rss&amp;sub=0</item>
+        <item>电脑焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=computer&amp;tn=rss&amp;sub=0</item>
+        <item>科普焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=discovery&amp;tn=rss&amp;sub=0</item>
+        <item>社会焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=socianews&amp;tn=rss&amp;sub=0</item>
+        <item>社会与法焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=shyf&amp;tn=rss&amp;sub=0</item>
+        <item>社会万象焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=shwx&amp;tn=rss&amp;sub=0</item>
+        <item>真情时刻焦点</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=zqsk&amp;tn=rss&amp;sub=0</item>
+        <item>国内最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=civilnews&amp;tn=rss</item>
+        <item>时政最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=shizheng&amp;tn=rss</item>
+        <item>港澳台最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=gangaotai&amp;tn=rss</item>
+        <item>国际最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=internews&amp;tn=rss</item>
+        <item>军事最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=mil&amp;tn=rss</item>
+        <item>环球视野最新</item>
+        <item>http://news.baidu.com/n?cmd=1&amp;class=hqsy&amp;tn=rss&amp;sub=0</item>
+        <item>财经最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=finannews&amp;tn=rss</item>
+        <item>股票最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=stock&amp;tn=rss</item>
+        <item>大盘最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=dapan&amp;tn=rss</item>
+        <item>个股最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=gegu&amp;tn=rss</item>
+        <item>新股最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=xingu&amp;tn=rss</item>
+        <item>理财最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=money&amp;tn=rss</item>
+        <item>基金最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=fund&amp;tn=rss</item>
+        <item>银行最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=bank&amp;tn=rss</item>
+        <item>贵金属最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=nmetal&amp;tn=rss</item>
+        <item>保险最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=insurance&amp;tn=rss</item>
+        <item>外汇最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=forex&amp;tn=rss</item>
+        <item>期货最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=futures&amp;tn=rss</item>
+        <item>互联网最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=internet&amp;tn=rss</item>
+        <item>人物动态最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=rwdt&amp;tn=rss</item>
+        <item>公司动态最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=gsdt&amp;tn=rss</item>
+        <item>房产最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=housenews&amp;tn=rss</item>
+        <item>各地动态最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=gddt&amp;tn=rss</item>
+        <item>政策风向最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=zcfx&amp;tn=rss</item>
+        <item>家居最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=fitment&amp;tn=rss</item>
+        <item>汽车最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=autonews&amp;tn=rss</item>
+        <item>新车导购最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=autobuy&amp;tn=rss</item>
+        <item>体育最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=sportnews&amp;tn=rss</item>
+        <item>NBA最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=nba&amp;tn=rss</item>
+        <item>易建联-雄鹿最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=yijianlian&amp;tn=rss</item>
+        <item>国际足球最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=worldsoccer&amp;tn=rss</item>
+        <item>意甲最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=yijia&amp;tn=rss</item>
+        <item>西甲最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=xijia&amp;tn=rss</item>
+        <item>英超最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=yingchao&amp;tn=rss</item>
+        <item>国内足球最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=chinasoccer&amp;tn=rss</item>
+        <item>男足最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=nanzu&amp;tn=rss</item>
+        <item>女足最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=nvzu&amp;tn=rss</item>
+        <item>中超最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=zhongchao&amp;tn=rss</item>
+        <item>国内篮球最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=cba&amp;tn=rss</item>
+        <item>综合体育最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=othersports&amp;tn=rss</item>
+        <item>娱乐最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=enternews&amp;tn=rss</item>
+        <item>明星最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=star&amp;tn=rss</item>
+        <item>电影最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=film&amp;tn=rss</item>
+        <item>电视最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=tv&amp;tn=rss</item>
+        <item>音乐最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=music&amp;tn=rss</item>
+        <item>游戏最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=gamenews&amp;tn=rss</item>
+        <item>网络游戏最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=netgames&amp;tn=rss</item>
+        <item>电视游戏最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=tvgames&amp;tn=rss</item>
+        <item>教育最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=edunews&amp;tn=rss</item>
+        <item>考试最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=exams&amp;tn=rss</item>
+        <item>留学最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=abroad&amp;tn=rss</item>
+        <item>健康最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=healthnews&amp;tn=rss</item>
+        <item>保健养生最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=baojian&amp;tn=rss</item>
+        <item>寻医问药最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=yiyao&amp;tn=rss</item>
+        <item>科技最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=technnews&amp;tn=rss</item>
+        <item>手机最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=mobile&amp;tn=rss</item>
+        <item>数码最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=digi&amp;tn=rss</item>
+        <item>电脑最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=computer&amp;tn=rss</item>
+        <item>科普最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=discovery&amp;tn=rss</item>
+        <item>社会最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=socianews&amp;tn=rss</item>
+        <item>社会与法最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=shyf&amp;tn=rss</item>
+        <item>社会万象最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=shwx&amp;tn=rss</item>
+        <item>真情时刻最新</item>
+        <item>http://news.baidu.com/n?cmd=4&amp;class=zqsk&amp;tn=rss</item>
+        <item>头条新闻</item>
+        <item>http://news.163.com/special/00011K6L/rss_newstop.xml</item>
+        <item>国内新闻</item>
+        <item>http://news.163.com/special/00011K6L/rss_gn.xml</item>
+        <item>社会新闻</item>
+        <item>http://news.163.com/special/00011K6L/rss_sh.xml</item>
+        <item>军事新闻</item>
+        <item>http://news.163.com/special/00011K6L/rss_war.xml</item>
+        <item>历史新闻</item>
+        <item>http://news.163.com/special/00011K6L/historyrss.xml</item>
+        <item>体育频道NBA</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportslq.xml</item>
+        <item>英超</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportsyc.xml</item>
+        <item>国际足球</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportsgj.xml</item>
+        <item>综合体育</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportszh.xml</item>
+        <item>网球</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportstennis.xml</item>
+        <item>F1</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportsf1.xml</item>
+        <item>秀色</item>
+        <item>http://sports.163.com/special/00051K7F/rss_ttxs.xml</item>
+        <item>彩票</item>
+        <item>http://sports.163.com/special/00051K7F/rss_sportscp.xml</item>
+        <item>娱乐频道头条新闻</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_toutiao.xml</item>
+        <item>明星动态</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_entstar.xml</item>
+        <item>电影世界</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_entmovie.xml</item>
+        <item>电视剧场</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_enttv.xml</item>
+        <item>音乐沙龙</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_entmusic.xml</item>
+        <item>娱乐专题</item>
+        <item>http://ent.163.com/special/00031K7Q/rss_entspecial.xml</item>
+        <item>南方周末 </item>
+        <item>http://www.infzm.com/rss/home/rss2.0.xml</item>
+        <item>中国报道周刊（观点比较激进，服务器在国外） </item>
+        <item>http://feeds.feedburner.com/china-week</item>
+        <item>联合早报：深受华人欢迎的报纸，对中国大陆的评价比较客观。</item>
+        <item>http://www.zaobao.com/yl/yl.xml</item>
+        <item>路透新闻中文版： </item>
+        <item>http://cn.reuters.com/rssFeed/CNTopGenNews</item>
+        <item>华尔街日报中文版：</item>
+        <item>http://cn.wsj.com/gb/rss02.xml</item>
+        <item>FT中文网：远看中国，时事评论。 </item>
+        <item>http://www.ftchinese.com/rss/column/007000004</item>
+        <item>外滩画报： </item>
+        <item>http://blog.sina.com.cn/rss/THEBUND.xml</item>
+        <item>电影世界：影讯、影评。</item>
+        <item>http://blog.sina.com.cn/rss/dianyingshijie.xml</item>
+        <item>佳人（杂志） </item>
+        <item>http://jiaren.org/feed/</item>
+        <item>褪墨（时间管理、教育的b0客） </item>
+        <item>http://www.mifengtd.cn/feed</item>
+        <item>随风而逝(读书/思考/职场) :</item>
+        <item>http://gudao.mysmth.net/feed</item>
+        <item>掘图志（好玩的图片b0客） </item>
+        <item>http://feeds.juetuzhi.cn/</item>
+        <item>序言书室（香港很有名的书店网站） </item>
+        <item>http://www.hkreaders.com/?feed=rss2</item>
+        <item>广告放肆（广告创意b0客） </item>
+        <item>http://feed.feedsky.com/digiart</item>
+        <item>中国国家地理b0客（官方的，会有杂志的一些内容） </item>
+        <item>http://blog.sina.com.cn/rss/cng.xml</item>
+        <item>Leica 摄影杂志（摄影爱好者图集） </item>
+        <item>http://www.leica.org.cn/feed.php</item>
+        <item>豆瓣最受欢迎书评 </item>
+        <item>http://www.douban.com/feed/review/book</item>
+        <item>精彩资讯 Mtime时光网（电影资讯网站，很全） </item>
+        <item>http://www.mtime.com/rss/news.rss</item>
+        <item>水煮沉浮（冷笑话）：</item>
+        <item>http://www.911usa.com.cn/happy/feed.php</item>
+        <item>穿衣打扮：提供服饰搭配,美容知识等方面的精彩文章:</item>
+        <item>http://www.chong4.com.cn/feed.php</item>
+        <item>美容护肤: 介绍女性美容,护肤技巧的公益性站点—— </item>
+        <item>http://feed.feedsky.com/meirong</item>
+        <item>丁香园：关注生活，关注健康，国内最大的医药科技论坛。</item>
+        <item>http://www.dxy.cn/bbs/rss/2.0/all.xml</item>
+        <item>ScienceDaily: 每天更新全球的科技杂志最新科研进展 </item>
+        <item>http://feeds.sciencedaily.com/sciencedaily</item>
+        <item>环球科学（自然科学类） </item>
+        <item>http://blog.sina.com.cn/rss/sciam.xml</item>
+        <item>科学松鼠会（国内一帮搞自然科学方面的年轻人创办的自然科学b0客，内容很好） </item>
+        <item>http://songshuhui.net/feed</item>
+        <item>New Scientist: 综合的科技新闻，关注科研。</item>
+        <item>http://feeds.newscientist.com/science-news</item>
+        <item>绿色播报（健康饮食及农业科技相关） </item>
+        <item>http://www.if-g.com/feed</item>
+        <item>科学网：最新科技资讯、中国科学界动态、评论，大量中国科学家的精彩b0客。 </item>
+        <item>http://www.sciencenet.cn/xml/news.aspx?news=0</item>
+        <item>口语听力： 掌握地道的表达法和语腔语调。 </item>
+        <item>http://www.chinaenglish.com.cn/rssFeed.aspx?cid=11</item>
+        <item>摩西英语 </item>
+        <item>http://www.mosesenglish.com/rss/index.asp</item>
+        <item>沪江英语听说：在线练习听说，公交车上也别错过机会。</item>
+        <item>http://feed.feedsky.com/hjts</item>
+        <item>iphone限时免费软件： </item>
+        <item>http://appshopper.com/feed/?mode=featured&amp;filter=price&amp;type=free</item>
+        <item>Engadget（科技b0客，主要是关于硬件方面的，每天更新，英语，美国主站，每天必看） </item>
+        <item>http://www.engadget.com/rss.xml</item>
+        <item>小众软件（小软件和新奇软件的集散地） </item>
+        <item>http://www.appinn.com/feed/</item>
+        <item>且行资源（关注教育技术动态,研究教学资源设计与开发技术）：</item>
+        <item>http://www.qiexing.com/rss.xml</item>
+        <item>分享网络2.0（WEB2.0应用集合） </item>
+        <item>http://feed.feedsky.com/showeb20</item>
+        <item>cnBeta.COM（IT业界新闻） </item>
+        <item>http://www.cnbeta.com/backend.php</item>
+        <item>Engadget中国版（科技b0客，主要是关于硬件方面的，每天更新，台北分站，简体中文，和主站内容不同） </item>
+        <item>http://cn.engadget.com/rss.xml</item>
+    </string-array>
+    <string-array name="add_feed_ways">
+        <item>Bundles</item>
+        <item>Custom</item>
+        <item>Feed added history</item>
+    </string-array>
+    <string-array name="feed_summary">
+        <item>Bundles are collections of news feeds.</item>
+        <item>Add a custom feed by entering an Rss feed address.</item>
+        <item>Add a feed from recent added.</item>
+    </string-array>
+    <!-- Used in RssSetings -->
+    <string-array name="setting_name">
+        <item>WidgetName</item>
+        <item>Show Item For</item>
+        <item>UpdateFrequency</item>
+    </string-array>
+    <string-array name="validaty_time_entry">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>1 week</item>
+        <item>1 month</item>
+    </string-array>
+    <string-array name="validaty_time_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>7</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="update_frequency_entry">
+        <item>Never</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <string-array name="update_frequency_value">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <ImageView
+        android:id="@+id/rss_feed_img"
+        android:layout_width="27.5sp"
+        android:layout_height="27.5sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        android:src="@drawable/ic_rss_small"
+        />
+
+    <TextView
+        android:id="@+id/rss_feed_name"
+        android:layout_width="fill_parent"
+        android:layout_height="65sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="85sp"
+        android:layout_toRightOf="@id/rss_feed_img"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <FrameLayout
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="1sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="1sp" 
+        android:clickable="true"
+        android:focusable="false">
+
+        <ProgressBar
+            android:id="@+id/subscribing"
+            android:layout_width="27sp"
+            android:layout_height="27sp"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/rss_feed_subscribe"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_background"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/rss_feed_remove"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_background"
+            android:src="@drawable/delete"
+            android:visibility="gone" />
+        <com.android.rss.view.RefreshButton
+            android:id="@+id/rss_feed_refresh"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_background"
+            android:src="@drawable/widget_fresh_normal"
+            android:visibility="gone" />
+        <ImageButton
+            android:id="@+id/rss_feed_subscribed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:src="@drawable/cheakbox_on"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</RelativeLayout>
