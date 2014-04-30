@@ -44,7 +44,7 @@ public class OpmlParser extends Thread {
             Document doc = docBuilder.parse(new InputSource(is));//http://rss.sina.com.cn/sina_news_opml.xml  
             //root
             Element root = (Element) doc.getDocumentElement();  
-            System.out.println("��Ԫ����ƣ�"+root.getNodeName());  
+            System.out.println("rootName : " + t.getNodeName());  
             NodeList nodeList = doc.getElementsByTagName("outline");  
             Element outlineElement = null;  
             
