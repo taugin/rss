@@ -2,5 +2,5 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 	<dimen name="button_line_margin_left">2dp</dimen>
 	<dimen name="button_line_margin_right">2dp</dimen>
-	<dimen name="radius">10dp</dimen>
+	<dimen name="radius">0dp</dimen>
 </resources>
